@@ -2,7 +2,7 @@ import unittest
 
 from leafnode import LeafNode
 
-class TestHTMLNode(unittest.TestCase):
+class TestLeafNode(unittest.TestCase):
     def test_plaintext(self):
         node = LeafNode(None, "Just words here, friend!")
         self.assertEqual(node.to_html(), "Just words here, friend!")
